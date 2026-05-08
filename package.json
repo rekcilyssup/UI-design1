@@ -1,0 +1,13 @@
+{
+  "name": "figma-assignment-static",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npx serve .",
+    "preview": "npx serve ."
+  },
+  "devDependencies": {
+    "pngjs": "^7.0.0",
+    "serve": "^14.2.5"
+  }
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compliance for Research Analysts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+
+      <header class="site-header" aria-label="Primary navigation">
+        <div class="header-inner">
+          <a class="logo-link" href="#" aria-label="Logo home">
+            <img src="./assets/Logo.png" alt="Logo" />
+          </a>
+
+          <nav class="main-nav" aria-label="Main menu">
+            <a class="active" href="#">Home</a>
+            <a href="#">About us</a>
+            <a href="#">Our Services</a>
+            <a href="#">Pricing</a>
+            <a href="#">FAQ</a>
+            <a href="#">Contact</a>
+          </nav>
+
+          <a class="button button-solid header-button" href="#">
+            <span class="phone-icon" aria-hidden="true"></span>
+            <span>Contact us</span>
+          </a>
+
+          <label class="menu-button" for="nav-toggle" aria-label="Open menu">
+            <img src="./assets/Menu.png" alt="" />
+          </label>
+        </div>
+      </header>
+
+      <label class="drawer-backdrop" for="nav-toggle" aria-hidden="true"></label>
+      <aside class="mobile-drawer" aria-label="Mobile menu">
+        <div class="drawer-top">
+          <img src="./assets/Logo.png" alt="Logo" />
+          <label for="nav-toggle" aria-label="Close menu"></label>
+        </div>
+        <nav class="drawer-nav" aria-label="Mobile navigation">
+          <a class="active" href="#"><img src="./assets/Home.png" alt="" />Home</a>
+          <a href="#"><img src="./assets/AboutUs.png" alt="" />About Us</a>
+          <a href="#"><img src="./assets/Our Services.png" alt="" />Our Services</a>
+          <a href="#"><img src="./assets/Pricing.png" alt="" />Pricing</a>
+          <a href="#"><img src="./assets/FAQ.png" alt="" />FAQ</a>
+          <a href="#"><img src="./assets/Contact.png" alt="" />Contact</a>
+        </nav>
+        <a class="button button-solid drawer-button" href="#">
+          <span class="phone-icon" aria-hidden="true"></span>
+          <span>Contact Us</span>
+        </a>
+      </aside>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-stage">
+            <div class="hero-copy">
+              <h1 id="hero-title">
+                <span>Simplifying</span>
+                <span class="underlined">Compliance for</span>
+                <span>Research Analysts</span>
+              </h1>
+
+              <p>
+                Stay focused on your insights—we’ll handle the compliance. Our expert
+                solutions ensure your research practices meet every regulatory
+                requirement with confidence and ease
+              </p>
+
+              <ul class="feature-list" aria-label="Compliance benefits">
+                <li><img src="./assets/check-sign.png" alt="" />End-to-end compliance support</li>
+                <li><img src="./assets/check-sign.png" alt="" />Regulatory filings made simple</li>
+                <li>
+                  <img src="./assets/check-sign.png" alt="" />Tailored solutions for independent analysts &amp; firms
+                </li>
+              </ul>
+
+              <div class="hero-actions">
+                <a class="button button-solid" href="#">
+                  <span class="phone-icon" aria-hidden="true"></span>
+                  <span>Get Started</span>
+                </a>
+                <a class="button button-outline" href="#">
+                  <span class="phone-icon" aria-hidden="true"></span>
+                  <span>Book a Consultation</span>
+                </a>
+              </div>
+            </div>
+
+            <img class="hero-illustration" src="./assets/hero-illustration.png" alt="" />
+          </div>
+        </section>
+
+        <section class="compliance" aria-labelledby="compliance-title">
+          <div class="compliance-stage">
+            <h2 id="compliance-title">Why Compliance Matters for Research Analysts</h2>
+            <p class="section-lead">
+              In today’s regulatory environment, even a small oversight can lead to
+              penalties, reputational risks, and loss of client trust. We help Research
+              Analysts and firms navigate complex compliance requirements so they can
+              focus on delivering high-quality research without worry.
+            </p>
+
+            <img class="section-art" src="./assets/Section2-Image.png" alt="" />
+
+            <div class="service-cards" aria-label="Compliance services">
+              <article class="service-card">
+                <img src="./assets/Regulatory Clarity.png" alt="" />
+                <div>
+                  <h3>Regulatory Clarity</h3>
+                  <p>We decode complex compliance rules into simple, actionable steps.</p>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <img src="./assets/Hassle-Free Filings Clarity.png" alt="" />
+                <div>
+                  <h3>Hassle-Free Filings Clarity</h3>
+                  <p>From registration to ongoing reporting—we manage it end-to-end.</p>
+                </div>
+              </article>
+
+              <article class="service-card">
+                <img src="./assets/Risk Protection.png" alt="" />
+                <div>
+                  <h3>Risk Protection</h3>
+                  <p>Stay ahead of audits, inspections, and compliance gaps with proactive support.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
